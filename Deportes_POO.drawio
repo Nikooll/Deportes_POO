@@ -236,8 +236,8 @@
             <mxPoint x="440" y="519.9100000000001" as="sourcePoint" />
             <mxPoint x="526.78" y="528" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="460" y="520" />
-              <mxPoint x="460" y="806" />
+              <mxPoint x="480" y="520" />
+              <mxPoint x="480" y="806" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -255,6 +255,24 @@
         </mxCell>
         <mxCell id="obF-LMcCL9hbDz9X7Q33-105" value="1.." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="590" y="858" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-106" value="&lt;b&gt;Suspensión&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="685" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-109" value="- idSuspencion: int&lt;br&gt;- tiempoSuspencion: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="obF-LMcCL9hbDz9X7Q33-106">
+          <mxGeometry y="26" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-110" value="" style="endArrow=none;html=1;rounded=0;exitX=0.412;exitY=1.093;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.031;entryY=0.242;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="obF-LMcCL9hbDz9X7Q33-109" target="obF-LMcCL9hbDz9X7Q33-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="770" as="sourcePoint" />
+            <mxPoint x="620" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="917" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-111" value="o..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="765" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
