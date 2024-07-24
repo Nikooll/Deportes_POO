@@ -274,6 +274,12 @@
         <mxCell id="obF-LMcCL9hbDz9X7Q33-111" value="o..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="315" y="765" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-112" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="obF-LMcCL9hbDz9X7Q33-106" target="obF-LMcCL9hbDz9X7Q33-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="730" as="sourcePoint" />
+            <mxPoint x="620" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
