@@ -280,6 +280,24 @@
             <mxPoint x="620" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-113" value="&lt;b&gt;NominaEncuentro&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="821" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-116" value="- ideNominaEcuentro: int&lt;br&gt;- fecha: Date " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="obF-LMcCL9hbDz9X7Q33-113">
+          <mxGeometry y="26" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-117" value="" style="endArrow=none;html=1;rounded=0;exitX=1.022;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.581;entryY=-0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="obF-LMcCL9hbDz9X7Q33-83" target="obF-LMcCL9hbDz9X7Q33-113">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="770" as="sourcePoint" />
+            <mxPoint x="620" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="837" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-118" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="798" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
