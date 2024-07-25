@@ -301,7 +301,7 @@
         <mxCell id="obF-LMcCL9hbDz9X7Q33-119" value="AñoDeportivo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="170" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="obF-LMcCL9hbDz9X7Q33-122" value="&lt;div&gt;- idAnioDeportivo: In&lt;/div&gt;&lt;div&gt;- fecha: Date&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="obF-LMcCL9hbDz9X7Q33-119">
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-122" value="&lt;div&gt;- idAñoDeportivo: In&lt;/div&gt;&lt;div&gt;- fecha: Date&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="obF-LMcCL9hbDz9X7Q33-119">
           <mxGeometry y="26" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="obF-LMcCL9hbDz9X7Q33-123" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.091;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="obF-LMcCL9hbDz9X7Q33-122">
@@ -350,6 +350,15 @@
             <mxPoint x="500" y="310" as="sourcePoint" />
             <mxPoint x="540" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-134" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="278" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-135" value="Dirección" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="30" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-137" value="- calle: String&lt;br&gt;- telefono: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="obF-LMcCL9hbDz9X7Q33-135">
+          <mxGeometry y="26" width="120" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
