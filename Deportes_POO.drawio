@@ -31,7 +31,7 @@
         <mxCell id="obF-LMcCL9hbDz9X7Q33-16" value="+ categoria: String&lt;br&gt;+ foto: byte" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="obF-LMcCL9hbDz9X7Q33-15" vertex="1">
           <mxGeometry y="26" width="140" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="obF-LMcCL9hbDz9X7Q33-19" value="&lt;b&gt;Secretario&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-19" value="&lt;b&gt;Anotador&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1730" y="452" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="obF-LMcCL9hbDz9X7Q33-23" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.671;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.214;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="obF-LMcCL9hbDz9X7Q33-19" target="obF-LMcCL9hbDz9X7Q33-2" edge="1">
