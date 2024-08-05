@@ -142,7 +142,7 @@
             <mxPoint x="2110" y="844" as="sourcePoint" />
             <mxPoint x="2160" y="794" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1900" y="918" />
+              <mxPoint x="1900" y="920" />
               <mxPoint x="1900" y="894" />
               <mxPoint x="1734" y="894" />
             </Array>
@@ -429,6 +429,19 @@
         </mxCell>
         <mxCell id="4fyw1zSQMC_85I8fKbnd-9" value="&lt;div&gt;- fechaActualizacion: Date&lt;/div&gt;&lt;div&gt;- posicionIndiv:List&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&lt;b&gt;&amp;lt;&lt;/b&gt;DeportsitaIndividual&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&lt;b&gt;&amp;gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;- posicionEquipos:List&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;lt;Equipo&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4fyw1zSQMC_85I8fKbnd-6">
           <mxGeometry y="26" width="250" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="4fyw1zSQMC_85I8fKbnd-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.64;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4fyw1zSQMC_85I8fKbnd-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1900" y="1000" as="sourcePoint" />
+            <mxPoint x="2190" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1960" y="1000" />
+              <mxPoint x="1960" y="970" />
+              <mxPoint x="2160" y="970" />
+              <mxPoint x="2160" y="960" />
+              <mxPoint x="2440" y="960" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
