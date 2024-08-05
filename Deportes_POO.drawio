@@ -422,10 +422,7 @@
         <mxCell id="4fyw1zSQMC_85I8fKbnd-6" value="&lt;b&gt;TablaPocisiciones&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2280" y="776" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4fyw1zSQMC_85I8fKbnd-9" value="&lt;div&gt;- fechaActualizacion: Date&lt;/div&gt;&lt;div&gt;&lt;div&gt;- posicionEquipos:List&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;lt;Equipo&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4fyw1zSQMC_85I8fKbnd-6">
-          <mxGeometry y="26" width="250" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="4fyw1zSQMC_85I8fKbnd-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.64;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4fyw1zSQMC_85I8fKbnd-9">
+        <mxCell id="4fyw1zSQMC_85I8fKbnd-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.592;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4fyw1zSQMC_85I8fKbnd-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1900" y="1000" as="sourcePoint" />
             <mxPoint x="2190" y="850" as="targetPoint" />
@@ -462,7 +459,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4fyw1zSQMC_85I8fKbnd-17" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1970" y="1088" width="40" height="30" as="geometry" />
+          <mxGeometry x="1990" y="1085" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4fyw1zSQMC_85I8fKbnd-18" value="&lt;b&gt;NominaDeportiva&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2075" y="1240" width="170" height="70" as="geometry" />
@@ -500,6 +497,27 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2240" y="1050" as="sourcePoint" />
             <mxPoint x="2000" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4fyw1zSQMC_85I8fKbnd-26" value="&lt;b&gt;DeportistaIndividual&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="660" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4fyw1zSQMC_85I8fKbnd-29" value="&lt;div&gt;+ nrRegistro: int&lt;/div&gt;&lt;div&gt;+ genero: String&lt;/div&gt;&lt;div&gt;+ categoria: String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4fyw1zSQMC_85I8fKbnd-26">
+          <mxGeometry y="26" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4fyw1zSQMC_85I8fKbnd-9" value="&lt;div&gt;- fechaActualizacion: Date&lt;/div&gt;&lt;div&gt;&lt;div&gt;- posicionEquipos:List&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;lt;Equipo&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="802" width="250" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="4fyw1zSQMC_85I8fKbnd-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.171;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4fyw1zSQMC_85I8fKbnd-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1980" y="1113" as="sourcePoint" />
+            <mxPoint x="2110" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1980" y="1040" />
+              <mxPoint x="1980" y="980" />
+              <mxPoint x="2060" y="980" />
+              <mxPoint x="2234" y="980" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
