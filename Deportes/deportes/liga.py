@@ -1,12 +1,6 @@
-
-from .sistema_campeonato import SistemaCampeonato
-
-class Liga(SistemaCampeonato):
+class Liga:
     def __init__(self, jornadas):
         self.jornadas = jornadas
 
-    def jugar_partido(self):
-        pass
-
-    def calcular_resultados(self):
-        pass
+    def __str__(self):
+        return f"Liga con {len(self.jornadas)} jornadas"
