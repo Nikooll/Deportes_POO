@@ -6,6 +6,13 @@
 Este diagrama UML contiene la gestión de un sistema de campeonatos deportivos, permitiendo manejar la inscripción de participantes y equipos, la organización de partidos y jornadas, la gestión de resultados y estadísticas.
 
 
+## EJECUCIÓN DEL PROYECTO
+
+* 1. Para abrir el proyecto sobre el sistema de deportes se lo puede realizar clonando el repositorio en pycharm.
+* 2. Una vez clonado el repositorio se procede a realizar la compilación, esta a su vez se la realiza en el main.
+* 3. Una vez ejecutado el proyecto se procede a interactuar con el sistema.
+
+
 **Ejemplo:**
 
 
