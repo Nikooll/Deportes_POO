@@ -132,7 +132,10 @@
           <mxGeometry x="1805" y="919" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="obF-LMcCL9hbDz9X7Q33-63" value="&lt;b&gt;InscripcionEquipo&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="892" width="160" height="52" as="geometry" />
+          <mxGeometry x="1950" y="892" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="4fyw1zSQMC_85I8fKbnd-1" value="FechaInscripcion: Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="obF-LMcCL9hbDz9X7Q33-63">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="obF-LMcCL9hbDz9X7Q33-67" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.97;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="obF-LMcCL9hbDz9X7Q33-63" target="obF-LMcCL9hbDz9X7Q33-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -250,7 +253,7 @@
             <mxPoint x="1640" y="944" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="obF-LMcCL9hbDz9X7Q33-119" value="&lt;b&gt;AñoDeportivo&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="obF-LMcCL9hbDz9X7Q33-119" value="&lt;b&gt;FechaDeportiva&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1980" y="434" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="obF-LMcCL9hbDz9X7Q33-122" value="&lt;div&gt;+ fecha: Date&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="obF-LMcCL9hbDz9X7Q33-119" vertex="1">
@@ -275,7 +278,7 @@
         <mxCell id="obF-LMcCL9hbDz9X7Q33-127" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.013;exitY=0.649;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="obF-LMcCL9hbDz9X7Q33-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1780" y="894" as="sourcePoint" />
-            <mxPoint x="2020" y="940" as="targetPoint" />
+            <mxPoint x="2020" y="950" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1250" y="480" />
               <mxPoint x="1250" y="850" />
